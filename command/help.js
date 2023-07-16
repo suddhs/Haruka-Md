@@ -13,12 +13,14 @@ function toCommas(x) {
 }
 
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
-    return`┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
-│👋WELCOME  ${name}
+    return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
 
-│🔮 Uptime : ${uptime}
-│🔮 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${author}
-│🔮 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${botname}
+┌┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈▷
+│👋WELCOME  
+
+│🔮 Uptime : ${runtime(process.uptime())}
+│🔮 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : Dinuwa 
+│🔮 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : QUEEN-HENTAI
 │🔮 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - Dinuwa   
 │   Official²⁰²³
 │
@@ -113,7 +115,7 @@ This wa bot created by 💝 Dinuwa Official²⁰²³ 💝
 │┃🔊.sc
 │┃🔊.qhw
 │┃🔊.dinuserial
-│┃🔊.unhentai                                                                                                                                                                    ╰╌══════════
+│┃🔊.unhentai                                                                                                                                                                    ╰╌══════════                                                                                                                                                           ╰╌══════════
 `
 }
 
